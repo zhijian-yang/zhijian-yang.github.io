@@ -1,2 +1,2 @@
 # anbai106.github.io
-Personal webpage
+My personal academic page.

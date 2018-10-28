@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Junhao Wen</title>
+    <link>https://anbai106.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Junhao Wen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Junhao Wen</copyright>
+    <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title> Early Cognitive, Structural, and Microstructural Changes in Presymptomatic C9orf72 Carriers Younger Than 40 Years</title>
+      <link>https://anbai106.github.io/publication/prevdemals-t1dti/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://anbai106.github.io/publication/prevdemals-t1dti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Reproducible evaluation of classification methods in Alzheimer's disease: Framework and application to MRI and PET data</title>
+      <link>https://anbai106.github.io/publication/svm-t1pet/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anbai106.github.io/publication/svm-t1pet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

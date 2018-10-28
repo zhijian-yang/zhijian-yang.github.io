@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Junhao Wen</title>
+    <link>https://anbai106.github.io/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Junhao Wen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Junhao Wen</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TBA</title>
+      <link>https://anbai106.github.io/talk/ucl/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anbai106.github.io/talk/ucl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Uncertainty in dMRI Super-resolution via Probabilistic CNNs</title>
+      <link>https://anbai106.github.io/talk/hms/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://anbai106.github.io/talk/hms/</guid>
+      <description>&lt;p&gt;Invited by &lt;a href=&#34;http://www.benoitscherrer.com/&#34; target=&#34;_blank&#34;&gt;Dr. Bernoit Scherrer&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring Uncertainty in dMRI Super-resolution via Probabilistic CNNs</title>
+      <link>https://anbai106.github.io/talk/nyu/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://anbai106.github.io/talk/nyu/</guid>
+      <description>&lt;p&gt;Invited by &lt;a href=&#34;http://www.cims.nyu.edu/~cfgranda/&#34; target=&#34;_blank&#34;&gt;Dr. Carlos Fernandez-Granda&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring Uncertainty in dMRI Super-resolution via Probabilistic CNNs</title>
+      <link>https://anbai106.github.io/talk/mit/</link>
+      <pubDate>Mon, 18 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://anbai106.github.io/talk/mit/</guid>
+      <description>&lt;p&gt;Invited by &lt;a href=&#34;http://people.csail.mit.edu/ruizhi/&#34; target=&#34;_blank&#34;&gt;Ruizhi Liao&lt;/a&gt; and &lt;a href=&#34;http://people.csail.mit.edu/polina/&#34; target=&#34;_blank&#34;&gt;Prof. Pollina Golland&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
