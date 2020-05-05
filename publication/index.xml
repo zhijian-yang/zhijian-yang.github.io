@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
 
     <item>
+      <title> Convolutional Neural Networks for Classification of Alzheimer's Disease: Overview and Reproducible Evaluation</title>
+      <link>https://anbai106.github.io/publication/cnn-t1/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+
+      <guid>https://anbai106.github.io/publication/cnn-t1/</guid>
+      <description></description>
+    </item>
+
+    <item>
       <title> Early Cognitive, Structural, and Microstructural Changes in Presymptomatic C9orf72 Carriers Younger Than 40 Years</title>
       <link>https://anbai106.github.io/publication/prevdemals-t1dti/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
@@ -27,15 +36,5 @@
       <guid>https://anbai106.github.io/publication/prevdemals-noddi/</guid>
       <description></description>
     </item>
-
-    <item>
-      <title> Reproducible evaluation of classification methods in Alzheimer's disease: Framework and application to MRI and PET data</title>
-      <link>https://anbai106.github.io/publication/svm-t1pet/</link>
-      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
-
-      <guid>https://anbai106.github.io/publication/svm-t1pet/</guid>
-      <description></description>
-    </item>
-
   </channel>
 </rss>
