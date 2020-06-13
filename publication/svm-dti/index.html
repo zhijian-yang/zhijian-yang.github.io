@@ -43,7 +43,7 @@
 
 
 
-  <title> Reproducible evaluation of classification methods in Alzheimer's disease: Framework and application to MRI and PET data | Junhao Wen</title>
+  <title> Reproducible evaluation of diffusion MRI features for automatic classification of patients with Alzheimer’s disease | Junhao Wen</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -119,10 +119,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name"> Reproducible evaluation of classification methods in Alzheimer's disease: Framework and application to MRI and PET data</h1>
+    <h1 itemprop="name"> Reproducible evaluation of diffusion MRI features for automatic classification of patients with Alzheimer’s disease</h1>
     <span class="pub-authors" itemprop="author">
 
-      Jorge Samper-González, Ninon Burgos, Simona Bottani, Sabrina Fontanella, Pascal Lu, Arnaud Marcoux, Alexandre Routier, Jérémy Guillon, Michael Bacci, <span style="text-decoration: underline;">Junhao WEN</span>, Anne Bertrand, Hugo Bertin, Marie-Odile Habert, Stanley Durrleman, Theodoros Evgeniou, Olivier Colliot
+      <span style="text-decoration: underline;">Junhao WEN</span>, Samper-González, J., Bottani, S., Routier, A., Burgos, N., Jacquemont, T., Fontanella, S., Durrleman, S., Epelbaum, S., Bertrand, A. and Colliot, O.
 
     </span>
     <span class="pull-right">
@@ -176,7 +176,7 @@
 
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">A large number of papers have introduced novel machine learning and feature extraction methods for automatic classification of Alzheimer’s disease (AD). However, while the vast majority of these works use the public dataset ADNI for evaluation, they are difficult to reproduce because different key components of the validation are often not readily available. These components include selected participants and input data, image preprocessing and cross- validation procedures. The performance of the different approaches is also difficult to compare objectively. In particular, it is often difficult to assess which part of the method (e.g. preprocessing, feature extraction or classification algorithms) provides a real improvement, if any. In the present paper, we propose a framework for reproducible and objective classification experiments in AD using three publicly available datasets (ADNI, AIBL and OASIS). The framework comprises: i) automatic conversion of the three datasets into a standard format (BIDS); ii) a modular set of preprocessing pipelines, feature extraction and classification methods, together with an evaluation framework, that provide a baseline for benchmarking the different components. We demonstrate the use of the framework for a large-scale evaluation on 1960 participants using T1 MRI and FDG PET data. In this evaluation, we assess the influence of different modalities, preprocessing, feature types (regional or voxel-based features), classifiers, training set sizes and datasets. Performances were in line with the state-of-the-art. FDG PET outperformed T1 MRI for all classification tasks. No difference in performance was found for the use of different atlases, image smoothing, partial volume correction of FDG PET images, or feature type. Linear SVM and L2-logistic regression resulted in similar performance and both outperformed random forests. The classification performance increased along with the number of subjects used for training. Classifiers trained on ADNI generalized well to AIBL and OASIS. All the code of the framework and the experiments is publicly available: general- purpose tools have been integrated into the Clinica software (www.clinica.run) and the paper- specific code is available at: https://gitlab.icm-institute.org/aramislab/AD-ML.</p>
+  <p class="pub-abstract" itemprop="text">Diffusion MRI is the modality of choice to study alterations of white matter. In past years, various works have used diffusion MRI for automatic classification of Alzheimer’s disease. However, classification performance obtained with different approaches is difficult to compare because of variations in components such as input data, participant selection, image preprocessing, feature extraction, feature rescaling (FR), feature selection (FS) and cross-validation (CV) procedures. Moreover, these studies are also difficult to reproduce because these different components are not readily available. In a previous work (Samper-González et al. 2018), we propose an open-source framework for the reproducible evaluation of AD classification from T1-weighted (T1w) MRI and PET data. In the present paper, we first extend this framework to diffusion MRI data. Specifically, we add: conversion of diffusion MRI ADNI data into the BIDS standard and pipelines for diffusion MRI preprocessing and feature extraction. We then apply the framework to compare different components. First, FS has a positive impact on classification results: highest balanced accuracy (BA) improved from 0.76 to 0.82 for task CN vs AD. Secondly, voxel-wise features generally gives better performance than regional features. Fractional anisotropy (FA) and mean diffusivity (MD) provided comparable results for voxel-wise features. Moreover, we observe that the poor performance obtained in tasks involving MCI were potentially caused by the small data samples, rather than by the data imbalance. Furthermore, no extensive classification difference exists for different degree of smoothing and registration methods. Besides, we demonstrate that using non-nested validation of FS leads to unreliable and over-optimistic results: 5% up to 40% relative increase in BA. Lastly, with proper FR and FS, the performance of diffusion MRI features is comparable to that of T1w MRI. All the code of the framework and the experiments are publicly available: general-purpose tools have been integrated into the Clinica software package (www.clinica.run) and the paper-specific code is available at: https://github.com/aramis-lab/AD-ML.</p>
 
 
   <div class="row">
@@ -203,7 +203,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <em>NeuroImage</em></div>
+        <div class="col-xs-12 col-sm-9">In <em>Neuroinformatics</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -216,7 +216,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          August, 2018
+          June, 2020
         </div>
       </div>
     </div>
@@ -248,7 +248,7 @@
   Poster
 </a> -->
 
-<a class="btn btn-primary btn-outline" href="https://www.sciencedirect.com/science/article/pii/S1053811918307407">
+<a class="btn btn-primary btn-outline" href="https://link.springer.com/article/10.1007/s12021-020-09469-5">
   Link
 </a>
 
@@ -273,7 +273,7 @@
 
 
 
-    <li class="next"><a href="https://anbai106.github.io/publication/prevdemals-noddi/">Neurite density is reduced in the presymptomatic phase of C9orf72 disease <span
+    <li class="next"><a href="https://anbai106.github.io/publication/prevdemals-noddi/">Early Cognitive, Structural, and Microstructural Changes in Presymptomatic C9orf72 Carriers Younger Than 40 Years<span
       aria-hidden="true">&rarr;</span></a></li>
 
   </ul>
