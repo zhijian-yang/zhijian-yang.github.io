@@ -43,7 +43,7 @@
 
 
 
-  <title> Reproducible evaluation of classification methods in Alzheimer's disease: Framework and application to MRI and PET data | Junhao Wen</title>
+  <title> Convolutional Neural Networks for Classification of Alzheimer's Disease: Overview and Reproducible Evaluation | Junhao Wen</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -119,10 +119,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name"> Reproducible evaluation of classification methods in Alzheimer's disease: Framework and application to MRI and PET data</h1>
+    <h1 itemprop="name"> Convolutional Neural Networks for Classification of Alzheimer's Disease: Overview and Reproducible Evaluation</h1>
     <span class="pub-authors" itemprop="author">
 
-      Jorge Samper-González, Ninon Burgos, Simona Bottani, Sabrina Fontanella, Pascal Lu, Arnaud Marcoux, Alexandre Routier, Jérémy Guillon, Michael Bacci, <span style="text-decoration: underline;">Junhao WEN</span>, Anne Bertrand, Hugo Bertin, Marie-Odile Habert, Stanley Durrleman, Theodoros Evgeniou, Olivier Colliot
+      <span style="text-decoration: underline;">Junhao WEN</span>, Elina Thibeau-Sutre, Mauricio Diaz-Melo, Jorge Samper-González, Alexandre Routier, Simona Bottani, Didier Dormont, Stanley Durrleman, Ninon Burgos, Olivier Colliot
 
     </span>
     <span class="pull-right">
@@ -176,7 +176,7 @@
 
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">A large number of papers have introduced novel machine learning and feature extraction methods for automatic classification of Alzheimer’s disease (AD). However, while the vast majority of these works use the public dataset ADNI for evaluation, they are difficult to reproduce because different key components of the validation are often not readily available. These components include selected participants and input data, image preprocessing and cross- validation procedures. The performance of the different approaches is also difficult to compare objectively. In particular, it is often difficult to assess which part of the method (e.g. preprocessing, feature extraction or classification algorithms) provides a real improvement, if any. In the present paper, we propose a framework for reproducible and objective classification experiments in AD using three publicly available datasets (ADNI, AIBL and OASIS). The framework comprises: i) automatic conversion of the three datasets into a standard format (BIDS); ii) a modular set of preprocessing pipelines, feature extraction and classification methods, together with an evaluation framework, that provide a baseline for benchmarking the different components. We demonstrate the use of the framework for a large-scale evaluation on 1960 participants using T1 MRI and FDG PET data. In this evaluation, we assess the influence of different modalities, preprocessing, feature types (regional or voxel-based features), classifiers, training set sizes and datasets. Performances were in line with the state-of-the-art. FDG PET outperformed T1 MRI for all classification tasks. No difference in performance was found for the use of different atlases, image smoothing, partial volume correction of FDG PET images, or feature type. Linear SVM and L2-logistic regression resulted in similar performance and both outperformed random forests. The classification performance increased along with the number of subjects used for training. Classifiers trained on ADNI generalized well to AIBL and OASIS. All the code of the framework and the experiments is publicly available: general- purpose tools have been integrated into the Clinica software (www.clinica.run) and the paper- specific code is available at: https://gitlab.icm-institute.org/aramislab/AD-ML.</p>
+  <p class="pub-abstract" itemprop="text">Numerous machine learning (ML) approaches have been proposed for automatic classification of Alzheimer's disease (AD) from brain imaging data. In particular, over 30 papers have proposed to use convolutional neural networks (CNN) for AD classification from anatomical MRI. However, the classification performance is difficult to compare across studies due to variations in components such as participant selection, image preprocessing or validation procedure. Moreover, these studies are hardly reproducible because their frameworks are not publicly accessible and because implementation details are lacking. Lastly, some of these papers may report a biased performance due to inadequate or unclear validation or model selection procedures. In the present work, we aim to address these limitations through three main contributions. First, we performed a systematic literature review. We identified four main types of approaches: i) 2D slice-level, ii) 3D patch-level, iii) ROI-based and iv) 3D subject-level CNN. Moreover, we found that more than half of the surveyed papers may have suffered from data leakage and thus reported biased performance. Our second contribution is the extension of our open-source framework for classification of AD using CNN and T1-weighted MRI. The framework comprises previously developed tools to automatically convert ADNI, AIBL and OASIS data into the BIDS standard, and a modular set of image preprocessing procedures, classification architectures and evaluation procedures dedicated to deep learning. Finally, we used this framework to rigorously compare different CNN architectures. The data was split into training/validation/test sets at the very beginning and only the training/validation sets were used for model selection. To avoid any overfitting, the test sets were left untouched until the end of the peer-review process. Overall, the different 3D approaches (3D-subject, 3D-ROI, 3D-patch) achieved similar performances while that of the 2D slice approach was lower. Of note, the different CNN approaches did not perform better than a SVM with voxel-based features. The different approaches generalized well to similar populations but not to datasets with different inclusion criteria or demographical characteristics. All the code of the framework and the experiments is publicly available: general-purpose tools have been integrated into the Clinica software (www.clinica.run) and the paper-specific code is available at: https://github.com/aramis-lab/AD-DL.</p>
 
 
   <div class="row">
@@ -203,7 +203,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <em>NeuroImage</em></div>
+        <div class="col-xs-12 col-sm-9">In <em>Medical Image Analysis</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -216,7 +216,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          August, 2018
+          May, 2020
         </div>
       </div>
     </div>
@@ -240,7 +240,7 @@
   PDF
 </a> -->
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://gitlab.icm-institute.org/aramislab/AD-ML">
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/aramis-lab/AD-DL">
   Code
 </a>
 
@@ -248,7 +248,7 @@
   Poster
 </a> -->
 
-<a class="btn btn-primary btn-outline" href="https://www.sciencedirect.com/science/article/pii/S1053811918307407">
+<a class="btn btn-primary btn-outline" href="https://www.sciencedirect.com/science/article/pii/S1361841520300591">
   Link
 </a>
 
@@ -273,7 +273,7 @@
 
 
 
-    <li class="next"><a href="https://anbai106.github.io/publication/prevdemals-noddi/">Neurite density is reduced in the presymptomatic phase of C9orf72 disease <span
+    <li class="next"><a href="https://anbai106.github.io/publication/prevdemals-noddi/">Reproducible evaluation of diffusion MRI features for automatic classification of patients with Alzheimer’s disease <span
       aria-hidden="true">&rarr;</span></a></li>
 
   </ul>
