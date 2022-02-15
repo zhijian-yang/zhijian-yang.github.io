@@ -39,11 +39,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://anbai106.github.io/publication/cnn-t1/">
+  <link rel="canonical" href="https://anbai106.github.io/publication/cnn-t1lld-subtypes/">
 
 
 
-  <title> Convolutional Neural Networks for Classification of Alzheimer's Disease: Overview and Reproducible Evaluation | Junhao Wen</title>
+  <title> Characterizing heterogeneity in neuroimaging, cognition, clinical symptomatology, and genetics among patients with late-life depression | Junhao Wen</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -119,10 +119,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name"> Convolutional Neural Networks for Classification of Alzheimer's Disease: Overview and Reproducible Evaluation</h1>
+    <h1 itemprop="name"> Characterizing heterogeneity in neuroimaging, cognition, clinical symptomatology, and genetics among patients with late-life depression</h1>
     <span class="pub-authors" itemprop="author">
 
-      <span style="text-decoration: underline;">Junhao WEN</span>, Elina Thibeau-Sutre, Mauricio Diaz-Melo, Jorge Samper-González, Alexandre Routier, Simona Bottani, Didier Dormont, Stanley Durrleman, Ninon Burgos, Olivier Colliot
+      <span style="text-decoration: underline;">Junhao WEN</span>, Cynthia H.Y. Fu, Duygu Tosun, Yogasudha Veturi, Zhijian Yang, Ahmed Abdulkadir, Elizabeth Mamourian, Dhivya Srinivasan, Ioanna Skampardoni, Ashish Singh, Jingxuan Bao, Guray Erus, Haochang Shou, Mohamad Habes, Jimit Doshi, Erdem Varol, Scott R Mackin, Aristeidis Sotiras, Yong Fan, Andrew J. Saykin, Yvette I. Sheline, Li Shen, Marylyn D. Ritchie, David A. Wolk, Marilyn Albert, Susan M. Resnick, Christos Davatzikos
 
     </span>
     <span class="pull-right">
@@ -176,7 +176,7 @@
 
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Numerous machine learning (ML) approaches have been proposed for automatic classification of Alzheimer's disease (AD) from brain imaging data. In particular, over 30 papers have proposed to use convolutional neural networks (CNN) for AD classification from anatomical MRI. However, the classification performance is difficult to compare across studies due to variations in components such as participant selection, image preprocessing or validation procedure. Moreover, these studies are hardly reproducible because their frameworks are not publicly accessible and because implementation details are lacking. Lastly, some of these papers may report a biased performance due to inadequate or unclear validation or model selection procedures. In the present work, we aim to address these limitations through three main contributions. First, we performed a systematic literature review. We identified four main types of approaches: i) 2D slice-level, ii) 3D patch-level, iii) ROI-based and iv) 3D subject-level CNN. Moreover, we found that more than half of the surveyed papers may have suffered from data leakage and thus reported biased performance. Our second contribution is the extension of our open-source framework for classification of AD using CNN and T1-weighted MRI. The framework comprises previously developed tools to automatically convert ADNI, AIBL and OASIS data into the BIDS standard, and a modular set of image preprocessing procedures, classification architectures and evaluation procedures dedicated to deep learning. Finally, we used this framework to rigorously compare different CNN architectures. The data was split into training/validation/test sets at the very beginning and only the training/validation sets were used for model selection. To avoid any overfitting, the test sets were left untouched until the end of the peer-review process. Overall, the different 3D approaches (3D-subject, 3D-ROI, 3D-patch) achieved similar performances while that of the 2D slice approach was lower. Of note, the different CNN approaches did not perform better than a SVM with voxel-based features. The different approaches generalized well to similar populations but not to datasets with different inclusion criteria or demographical characteristics. All the code of the framework and the experiments is publicly available: general-purpose tools have been integrated into the Clinica software (www.clinica.run) and the paper-specific code is available at: https://github.com/aramis-lab/AD-DL.</p>
+  <p class="pub-abstract" itemprop="text">Late-life depression (LLD) is characterized by considerable heterogeneity in clinical manifestation. Unraveling such heterogeneity would aid in elucidating etiological mechanisms and pave the road to precision and individualized medicine. We sought to delineate, cross-sectionally and longitudinally, disease-related heterogeneity in LLD linked to neuroanatomy, cognitive functioning, clinical symptomatology, and genetic profiles. Multimodal data from a multicentre sample (N=996) were analyzed. A semi-supervised clustering method (HYDRA) was applied to regional grey matter (GM) brain volumes to derive dimensional representations. Two dimensions were identified, which accounted for the LLD-related heterogeneity in voxel-wise GM maps, white matter (WM) fractional anisotropy (FA), neurocognitive functioning, clinical phenotype, and genetics. Dimension one (Dim1) demonstrated relatively preserved brain anatomy without WM disruptions relative to healthy controls. In contrast, dimension two (Dim2) showed widespread brain atrophy and WM integrity disruptions, along with cognitive impairment and higher depression severity. Moreover, one de novo independent genetic variant (rs13120336) was significantly associated with Dim 1 but not with Dim 2. Notably, the two dimensions demonstrated significant SNP-based heritability of 18-27% within the general population (N=12,518 in UKBB). Lastly, in a subset of individuals having longitudinal measurements, Dim2 demonstrated a more rapid longitudinal decrease in GM and brain age, and was more likely to progress to Alzheimers disease, compared to Dim1 (N=1,413 participants and 7,225 scans from ADNI, BLSA, and BIOCARD datasets).</p>
 
 
   <div class="row">
@@ -203,7 +203,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <em>Medical Image Analysis</em></div>
+        <div class="col-xs-12 col-sm-9">In <em>JAMA Psychiatry</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -216,7 +216,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          May, 2020
+          March, 2022
         </div>
       </div>
     </div>
@@ -240,15 +240,15 @@
   PDF
 </a> -->
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/aramis-lab/AD-DL">
-  Code
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/anbai106/mlni">
+  Software
 </a>
 
 <!-- <a class="btn btn-primary btn-outline" href="https://anbai106.github.io/pdf/tanno_miccai_2016_poster.pdf">
   Poster
 </a> -->
 
-<a class="btn btn-primary btn-outline" href="https://www.sciencedirect.com/science/article/pii/S1361841520300591">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2110.11347">
   Link
 </a>
 
@@ -273,7 +273,7 @@
 
 
 
-    <li class="next"><a href="https://anbai106.github.io/publication/prevdemal-t1dti/">Early Cognitive, Structural, and Microstructural Changes in Presymptomatic C9orf72 Carriers Younger Than 40 Years <span
+    <li class="next"><a href="https://anbai106.github.io/publication/cnn-t1/">Convolutional Neural Networks for Classification of Alzheimer's Disease: Overview and Reproducible Evaluation <span
       aria-hidden="true">&rarr;</span></a></li>
 
   </ul>
