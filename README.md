@@ -1,4 +1,4 @@
-# anbai106.github.io
+# zhijian.github.io
 This is my personal page hosted on Godaddy and Github.
 
 ## How to preview the static site?
@@ -6,4 +6,4 @@ After editing the files, you can type the following command line in your termina
 ```
 jekyll serve
 ```
-Then open the resulting http address in your browser. Voila!
+Then open the resulting http address in your browser.
